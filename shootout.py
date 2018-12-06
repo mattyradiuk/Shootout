@@ -15,7 +15,7 @@ bayern = [("Lewandowski", 91), ("Muller", 86), ("James", 87), ("Robben", 86), ("
 
 juve = [("Ronaldo", 94), ("Dybala", 84), ("Douglas", 82), ("Mandjukic", 80), ("Buffon", 76)]
 
-spurs = [("Kane", 88),("Eriksen", 87),("Son", 85),("Dele", 83),("Lloris", 75)]
+spurs = [("Kane", 88), ("Eriksen", 87), ("Son", 85), ("Dele", 83), ("Lloris", 75)]
 
 custom = []
 myTeam = []
@@ -310,7 +310,7 @@ def endGame():
 			shooterNum = 0
 			goalsNum = 0
 			opoGoals = 0
-			play(0)
+			pickTeams()
 		else:
 			print("Thank you for playing.")
 			print("Copyright © Matt Radiuk 2018")
@@ -324,7 +324,7 @@ def endGame():
 			shooterNum = 0
 			goalsNum = 0
 			opoGoals = 0
-			play(0)
+			pickTeams()
 		else:
 			print("Thank you for playing.")
 			print("Copyright © Matt Radiuk 2018")
