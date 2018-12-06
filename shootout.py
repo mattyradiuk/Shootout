@@ -134,6 +134,7 @@ def myTeamShot(shooter):
 	global opoGoals
 	global shooterNum
 	global opoShots
+	global opoTeam
 	print("The score is " + str(goalsNum) + " - " + str(opoGoals))
 	print("The shooter is " + shooter[0] + " and his rating is " + str(shooter[1]))
 	print("")
@@ -150,7 +151,7 @@ def myTeamShot(shooter):
 		shotPlace = 2
 	if(shotPlace == -1):
 		print("Shot selection is invalid")
-		print("Shooter looks shaken and rolls it softly down the middle")
+		print(shooter[0] + " looks shaken and rolls it softly down the middle")
 		shotPlace = 1
 	print("")
 	if(AIgoalie == 0):
