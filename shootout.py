@@ -7,6 +7,7 @@ import time
 
 clear = lambda: os.system('cls')
 
+# Current selection of teams, more to come
 real = [("Bale", 90), ("Isco", 82), ("Modric", 88), ("Ramos", 84), ("Navas", 70)]
 
 barca = [("Messi", 94), ("Coutinho", 87), ("Dembele", 83), ("Suarez", 86), ("Ter Stegen", 74)]
@@ -26,6 +27,74 @@ opoShots = 0
 goalsNum = 0
 opoGoals = 0
 	
+if __name__ == '__main__':
+	# Intro to the game and team selection
+	print("120 minutes have passed but the game is still tied")
+	time.sleep(0.3)
+	print("It is going to come down to the penalty shootout!!!")
+	time.sleep(0.5)
+	print("")
+	print("Teams: Real, Barca, Bayern, Juve, Spurs, or custom")
+
+	myTeam = []
+	opoTeam = []
+
+	#Pick the team you control
+	while(not myTeam):
+		teamChoose = input("Which team would you like to be?: ")
+		if(teamChoose.lower() == "real"):
+			myTeam = real
+			break
+		if(teamChoose.lower() == "barca"):
+			myTeam = barca
+			break
+		if(teamChoose.lower() == "bayern"):
+			myTeam = bayern
+			break
+		if(teamChoose.lower() == "juve"):
+			myTeam = juve	
+			break
+		if(teamChoose.lower() == "spurs"):
+			myTeam = spurs	
+			break
+		if(teamChoose.lower() == "custom"):
+			myTeam = custom
+			customFill()	
+		print("Input was invalid, please try again")
+	print("This is how your team lines up")
+	print("----------------")
+	for (name, rating) in myTeam:
+		print(name, rating)
+	print("----------------\n")
+
+	#Pick the team the AI controls
+	while(not opoTeam):
+		opoChoose = input("Which team would you like to face?: ")
+		if(opoChoose.lower() == "real"):
+			opoTeam = real
+			break
+		if(opoChoose.lower() == "barca"):
+			opoTeam = barca
+			break
+		if(opoChoose.lower() == "bayern"):
+			opoTeam = bayern
+			break
+		if(opoChoose.lower() == "juve"):
+			opoTeam = juve	
+			break
+		if(opoChoose.lower() == "spurs"):
+			opoTeam = spurs	
+			break
+		if(opoChoose.lower() == "custom"):
+			opoTeam = custom
+			customFill()	
+		print("Input was invalid, please try again")
+	print("This is how the other team lines up")
+	print("----------------")
+	for (name, rating) in opoTeam:
+		print(name, rating)
+	print("----------------")	
+
 def pickTeams():
 	global myTeam
 	global opoTeam
@@ -331,6 +400,3 @@ def endGame():
 			print("Copyright © Matt Radiuk 2018")
 			time.sleep(6)
 			exit()
-
-if __name__ == '__main__':
-	pickTeams()
