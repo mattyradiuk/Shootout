@@ -22,12 +22,13 @@ custom = []
 myTeam = []
 opoTeam = []
 
+#Ugly Globals; getting rid of these soon
 shooterNum = 0
 opoShots = 0
 goalsNum = 0
 opoGoals = 0
-	
-if __name__ == '__main__':
+
+def main():
 	# Intro to the game and team selection
 	print("120 minutes have passed but the game is still tied")
 	time.sleep(0.3)
@@ -88,69 +89,20 @@ if __name__ == '__main__':
 		if(opoChoose.lower() == "custom"):
 			opoTeam = custom
 			customFill()	
-		print("Input was invalid, please try again")
+		print("Input was invalid, please try again\n")
 	print("This is how the other team lines up")
 	print("----------------")
 	for (name, rating) in opoTeam:
 		print(name, rating)
-	print("----------------")	
+	print("----------------\n")	
+	playQ = input("If you're happy with the teams, type 'play', anything else will restart team selection: ")
+	if(playQ.lower() != "play"):
+		main()
+	clear()
+
 
 def pickTeams():
-	global myTeam
-	global opoTeam
-	print("120 minutes have passed but the game is still tied")
-	time.sleep(0.3)
-	print("It is going to come down to the penalty shootout!!!")
-	time.sleep(0.5)
-	print("")
-	print("Teams: Real, Barca, Bayern, Juve, Spurs, or custom")
-	teamChoose = input("Which team would you like to be?: ")
-	if(teamChoose.lower() == "real"):
-		myTeam = real
-	if(teamChoose.lower() == "barca"):
-		myTeam = barca
-	if(teamChoose.lower() == "bayern"):
-		myTeam = bayern
-	if(teamChoose.lower() == "juve"):
-		myTeam = juve	
-	if(teamChoose.lower() == "spurs"):
-		myTeam = spurs	
-	if(teamChoose.lower() == "custom"):
-		myTeam = custom
-		customFill()		
-	if not myTeam:
-		print("Please enter a valid input")
-		pickTeams()
-
-	print("This is how your team lines up")
-	#print("Player - Power")
-	print("----------------")
-	for (name, rating) in myTeam:
-		print(name, rating)
-	print("----------------")	
-	opoChoose = input("Which team would you like to play against?: ")
-	if(opoChoose.lower() == "real"):
-		opoTeam = real
-	if(opoChoose.lower() == "barca"):
-		opoTeam = barca
-	if(opoChoose.lower() == "bayern"):
-		opoTeam = bayern
-	if(opoChoose.lower() == "juve"):
-		opoTeam = juve	
-	if(opoChoose.lower() == "spurs"):
-		opoTeam = spurs	
-	if(opoChoose.lower() == "custom"):
-		opoTeam = custom
-		customFill()		
-	if not opoTeam:
-		print("Please enter a valid input")
-		pickTeams()	
-	print("This is how the other team lines up")
-	#print("Player - Power")
-	print("----------------")
-	for (name, rating) in opoTeam:
-		print(name, rating)
-	print("----------------")	
+	
 	print("Play / Pick")
 	choice1 = input("Would you like to play or pick teams again?: ")
 	if(choice1.lower() == "pick"):
@@ -400,3 +352,5 @@ def endGame():
 			print("Copyright © Matt Radiuk 2018")
 			time.sleep(6)
 			exit()
+if __name__ == '__main__':
+	main()
