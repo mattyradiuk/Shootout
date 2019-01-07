@@ -18,6 +18,8 @@ juve = [("Ronaldo", 94), ("Dybala", 84), ("Douglas", 82), ("Mandjukic", 80), ("B
 
 spurs = [("Kane", 88), ("Eriksen", 87), ("Son", 85), ("Dele", 83), ("Lloris", 75)]
 
+united = [("Pogba", 84), ("Lingard", 82), ("Rashford", 80), ("Lukaku", 77), ("De Gea", 80)]
+
 custom = []
 myTeam = []
 opoTeam = []
@@ -58,6 +60,9 @@ def main():
 		if(teamChoose.lower() == "spurs"):
 			myTeam = spurs	
 			break
+		if(teamChoose.lower() == "united"):
+			myTeam = united	
+			break
 		if(teamChoose.lower() == "custom"):
 			myTeam = custom
 			customFill()	
@@ -85,6 +90,9 @@ def main():
 			break
 		if(opoChoose.lower() == "spurs"):
 			opoTeam = spurs	
+			break
+		if(teamChoose.lower() == "united"):
+			myTeam = united	
 			break
 		if(opoChoose.lower() == "custom"):
 			opoTeam = custom
