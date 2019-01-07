@@ -114,10 +114,10 @@ def main():
 
 def pickTeams():
 	
-	print("Play / Pick")
-	choice1 = input("Would you like to play or pick teams again?: ")
-	if(choice1.lower() == "pick"):
-		pickTeams()
+	#print("Play / Pick")
+	#choice1 = input("Would you like to play or pick teams again?: ")
+	#if(choice1.lower() == "pick"):
+	#	pickTeams()
 	else: 
 		clear()
 		print("First / Second / Random")
