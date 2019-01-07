@@ -19,7 +19,10 @@ juve = [("Ronaldo", 94), ("Dybala", 84), ("Douglas", 82), ("Mandjukic", 80), ("B
 spurs = [("Kane", 88), ("Eriksen", 87), ("Son", 85), ("Dele", 83), ("Lloris", 75)]
 
 united = [("Pogba", 84), ("Lingard", 82), ("Rashford", 80), ("Lukaku", 77), ("De Gea", 80)]
+<<<<<<< HEAD
 
+=======
+>>>>>>> 7083e8498f0c1ca7c4b0d489c8c62e59fb1a05fc
 custom = []
 myTeam = []
 opoTeam = []
