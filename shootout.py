@@ -19,10 +19,7 @@ juve = [("Ronaldo", 94), ("Dybala", 84), ("Douglas", 82), ("Mandjukic", 80), ("B
 spurs = [("Kane", 88), ("Eriksen", 87), ("Son", 85), ("Dele", 83), ("Lloris", 75)]
 
 united = [("Pogba", 84), ("Lingard", 82), ("Rashford", 80), ("Lukaku", 77), ("De Gea", 80)]
-<<<<<<< HEAD
 
-=======
->>>>>>> 7083e8498f0c1ca7c4b0d489c8c62e59fb1a05fc
 custom = []
 myTeam = []
 opoTeam = []
@@ -79,23 +76,23 @@ def main():
 	#Pick the team the AI controls
 	while(not opoTeam):
 		opoChoose = input("Which team would you like to face?: ")
-		if(opoChoose.lower() == "real"):
+		if(opoChoose.lower() in ("real", "real madrid", "madrid")):
 			opoTeam = real
 			break
-		if(opoChoose.lower() == "barca"):
+		if(opoChoose.lower() in ("barca", "barcelona")):
 			opoTeam = barca
 			break
-		if(opoChoose.lower() == "bayern"):
+		if(opoChoose.lower() in ("bayern", "bayern munich", "munich")):
 			opoTeam = bayern
 			break
-		if(opoChoose.lower() == "juve"):
+		if(opoChoose.lower() in ("juve", "juventus")):
 			opoTeam = juve	
 			break
-		if(opoChoose.lower() == "spurs"):
+		if(opoChoose.lower() in ("spurs", "hotspur", "tottenham")):
 			opoTeam = spurs	
 			break
-		if(teamChoose.lower() == "united"):
-			myTeam = united	
+		if(teamChoose.lower() in ("united", "utd", "man united", "man utd")):
+			opoTeam = united	
 			break
 		if(opoChoose.lower() == "custom"):
 			opoTeam = custom
@@ -114,10 +111,10 @@ def main():
 
 def pickTeams():
 	
-	#print("Play / Pick")
-	#choice1 = input("Would you like to play or pick teams again?: ")
-	#if(choice1.lower() == "pick"):
-	#	pickTeams()
+	print("Play / Pick")
+	choice1 = input("Would you like to play or pick teams again?: ")
+	if(choice1.lower() == "pick"):
+		pickTeams()
 	else: 
 		clear()
 		print("First / Second / Random")
