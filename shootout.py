@@ -43,27 +43,27 @@ def main():
 	opoTeam = []
 
 	#Pick the team you control
-	while(not myTeam):
+	while(1):
 		teamChoose = input("Which team would you like to be?: ")
-		if(teamChoose.lower() == "real"):
+		if(teamChoose.lower() in ("real", "real madrid", "madrid")):
 			myTeam = real
 			break
-		if(teamChoose.lower() == "barca"):
+		if(teamChoose.lower() in ("barca", "barcelona", "fcb")):
 			myTeam = barca
 			break
-		if(teamChoose.lower() == "bayern"):
+		if(teamChoose.lower() in ("bayern", "munich")):
 			myTeam = bayern
 			break
-		if(teamChoose.lower() == "juve"):
+		if(teamChoose.lower() in ("juve", "juventus")):
 			myTeam = juve	
 			break
-		if(teamChoose.lower() == "spurs"):
+		if(teamChoose.lower() in ("spurs", "tottenham")):
 			myTeam = spurs	
 			break
-		if(teamChoose.lower() == "united"):
+		if(teamChoose.lower() in ("united", "man utd")):
 			myTeam = united	
 			break
-		if(teamChoose.lower() == "custom"):
+		if(teamChoose.lower() in "custom"):
 			myTeam = custom
 			customFill()	
 		print("Input was invalid, please try again")
@@ -74,7 +74,7 @@ def main():
 	print("----------------\n")
 
 	#Pick the team the AI controls
-	while(not opoTeam):
+	while(1):
 		opoChoose = input("Which team would you like to face?: ")
 		if(opoChoose.lower() in ("real", "real madrid", "madrid")):
 			opoTeam = real
