@@ -20,9 +20,9 @@ spurs = [("Kane", 88), ("Eriksen", 87), ("Son", 85), ("Dele", 83), ("Lloris", 75
 
 united = [("Pogba", 84), ("Lingard", 82), ("Rashford", 80), ("Lukaku", 77), ("De Gea", 80)]
 
+liverpool = [("Salah", 87), ("Milner", 80), ("Firmino", 83), ("Shaqiri", 75), ("Alison", 77)]
+
 custom = []
-myTeam = []
-opoTeam = []
 
 #Ugly Globals; getting rid of these soon
 shooterNum = 0
@@ -37,7 +37,7 @@ def main():
 	print("It is going to come down to the penalty shootout!!!")
 	time.sleep(0.5)
 	print("")
-	print("Teams: Real, Barca, Bayern, Juve, Spurs, or custom")
+	print("Teams: Real Madrid, Barcelona, Bayern Munich, Juventus, Man United, Liverpool, Tottenham Hotspur, or custom")
 
 	myTeam = []
 	opoTeam = []
@@ -62,6 +62,9 @@ def main():
 			break
 		if(teamChoose.lower() in ("united", "man utd")):
 			myTeam = united	
+			break
+		if(teamChoose.lower() in ("liverpool", "lfc")):
+			myTeam = liverpool	
 			break
 		if(teamChoose.lower() in "custom"):
 			myTeam = custom
@@ -94,6 +97,9 @@ def main():
 		if(teamChoose.lower() in ("united", "utd", "man united", "man utd")):
 			opoTeam = united	
 			break
+		if(teamChoose.lower() in ("liverpool", "lfc")):
+			myTeam = liverpool	
+			break
 		if(opoChoose.lower() == "custom"):
 			opoTeam = custom
 			customFill()	
@@ -107,24 +113,19 @@ def main():
 	if(playQ.lower() != "play"):
 		main()
 	clear()
+	preMatchToss()
 
 
-def pickTeams():
-	
-	print("Play / Pick")
-	choice1 = input("Would you like to play or pick teams again?: ")
-	if(choice1.lower() == "pick"):
-		pickTeams()
-	else: 
-		clear()
-		print("First / Second / Random")
+def preMatchToss():
+	print("First / Second / Random")
+	while(1):
 		choice2 = input("Would you shoot first second or random?: ")
-		if(choice2.lower() == ("first")):	
+		if(choice2.lower() in ("first", "f", "frist", "1")):	
 			play(0)
-		if(choice2.lower() == ("second")):	
+		if(choice2.lower() in ("second", "s", "secnod", "2")):	
 			play(1)
-		if(choice2.lower() == ("random")):	
-			toss = int(random.uniform(0,2))
+		if(choice2.lower() in ("random", 'r')):	
+			toss = int(random.randint(0,1))
 			if(toss == 0):
 				print("You have won the toss and will kick first!")
 				time.sleep(1)
@@ -135,10 +136,7 @@ def pickTeams():
 				time.sleep(1)
 				print("")
 				play(1)
-		if not choice2:
-			print("Invalid input, please restart")
-			time.sleep(2)
-			pickTeams()
+		print("Input was invalid, please try again\n")
 
 def customFill():
 	for i in range(1, 5):
