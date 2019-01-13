@@ -140,12 +140,12 @@ def preMatchToss():
 
 def customFill():
 	for i in range(1, 5):
-		cusPlayer = input("Enter name for player " + str(i) + ": ")
-		cusRating = input("Enter rating for player " + str(i) + ": ")
-		custom.append((cusPlayer,int(cusRating)))
-	cusGoalie = input("Enter name for goalie: ")
-	cusGRating = input("Enter rating for goalie: ")
-	custom.append((cusGoalie,int(cusGRating)))
+		customPlayer = input("Enter name for player " + str(i) + ": ")
+		customRating = input("Enter rating for player " + str(i) + ": ")
+		custom.append((customPlayer,int(customRating)))
+	customGoalie = input("Enter name for goalie: ")
+	customGRating = input("Enter rating for goalie: ")
+	custom.append((customGoalie,int(customGRating)))
 
 def play(x):
 	global shooterNum
