@@ -22,6 +22,8 @@ united = [("Pogba", 84), ("Lingard", 82), ("Rashford", 80), ("Lukaku", 77), ("De
 
 liverpool = [("Salah", 87), ("Milner", 80), ("Firmino", 83), ("Shaqiri", 75), ("Alison", 77)]
 
+city = [("Aguero", 87)] 
+
 custom = []
 
 #Ugly Globals; getting rid of these soon
@@ -53,7 +55,7 @@ def main():
 			break
 		if(teamChoose.lower() in ("bayern", "munich")):
 			myTeam = bayern
-			break
+			ibreak
 		if(teamChoose.lower() in ("juve", "juventus")):
 			myTeam = juve	
 			break
