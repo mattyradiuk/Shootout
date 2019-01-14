@@ -139,6 +139,7 @@ def preMatchToss():
 		print("Input was invalid, please try again\n")
 
 def customFill():
+        #When you select "custom" at kickoff
 	for i in range(1, 5):
 		customPlayer = input("Enter name for player " + str(i) + ": ")
 		customRating = input("Enter rating for player " + str(i) + ": ")
