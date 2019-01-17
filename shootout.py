@@ -68,9 +68,9 @@ def main():
 		if(teamChoose.lower() in ("liverpool", "lfc")):
 			myTeam = liverpool	
 			break
-                if(teamChoose.lower() in ("city", 'man city', 'manchester city')):
-                        myTeam = city
-                        break
+		if(teamChoose.lower() in ("city", 'man city', 'manchester city')):
+			myTeam = city
+			break
 		if(teamChoose.lower() in "custom"):
 			myTeam = custom
 			customFill()	
@@ -99,11 +99,14 @@ def main():
 		if(opoChoose.lower() in ("spurs", "hotspur", "tottenham")):
 			opoTeam = spurs	
 			break
-		if(teamChoose.lower() in ("united", "utd", "man united", "man utd")):
+		if(opoChoose.lower() in ("united", "utd", "man united", "man utd")):
 			opoTeam = united	
 			break
-		if(teamChoose.lower() in ("liverpool", "lfc")):
-			myTeam = liverpool	
+		if(opoChoose.lower() in ("liverpool", "lfc")):
+			opoTeam = liverpool	
+			break
+		if(opoChoose.lower() in ("city", 'man city', 'manchester city')):
+			opoTeam = city
 			break
 		if(opoChoose.lower() == "custom"):
 			opoTeam = custom
