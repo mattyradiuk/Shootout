@@ -22,7 +22,7 @@ united = [("Pogba", 84), ("Lingard", 82), ("Rashford", 80), ("Lukaku", 77), ("De
 
 liverpool = [("Salah", 87), ("Milner", 80), ("Firmino", 83), ("Shaqiri", 75), ("Alison", 77)]
 
-city = [("Aguero", 87)] 
+city = [("Aguero", 87), ("Sterling", 82), ("De Bruyne", 88), ("Sane", 80), ("Ederson", 68)] 
 
 custom = []
 
