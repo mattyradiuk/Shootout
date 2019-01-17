@@ -68,6 +68,9 @@ def main():
 		if(teamChoose.lower() in ("liverpool", "lfc")):
 			myTeam = liverpool	
 			break
+                if(teamChoose.lower() in ("city", 'man city', 'manchester city')):
+                        myTeam = city
+                        break
 		if(teamChoose.lower() in "custom"):
 			myTeam = custom
 			customFill()	
