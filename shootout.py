@@ -33,7 +33,12 @@ goalsNum = 0
 opoGoals = 0
 
 def main():
-	# Intro to the game and team selection
+        intro()
+	preMatchToss()
+
+
+def intro():
+        # Intro to the game and team selection
 	print("120 minutes have passed but the game is still tied")
 	time.sleep(0.3)
 	print("It is going to come down to the penalty shootout!!!")
@@ -121,8 +126,6 @@ def main():
 	if(playQ.lower() != "play"):
 		main()
 	clear()
-	preMatchToss()
-
 
 def preMatchToss():
 	print("First / Second / Random")
