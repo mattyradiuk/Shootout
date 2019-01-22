@@ -33,8 +33,8 @@ goalsNum = 0
 opoGoals = 0
 
 def main():
-        intro()
-	preMatchToss()
+	intro()
+	play(preMatchToss())
 
 
 def intro():
@@ -44,7 +44,7 @@ def intro():
 	print("It is going to come down to the penalty shootout!!!")
 	time.sleep(0.5)
 	print("")
-	print("Teams: Real Madrid, Barcelona, Bayern Munich, Juventus, Man United, Liverpool, Tottenham Hotspur, or custom")
+	print("Teams: Real Madrid, Barcelona, Bayern Munich, Juventus, Man United, Man City, Liverpool, Tottenham Hotspur, or custom")
 
 	myTeam = []
 	opoTeam = []
@@ -132,21 +132,21 @@ def preMatchToss():
 	while(1):
 		choice2 = input("Would you shoot first second or random?: ")
 		if(choice2.lower() in ("first", "f", "frist", "1")):	
-			play(0)
+			return(0)
 		if(choice2.lower() in ("second", "s", "secnod", "2")):	
-			play(1)
+			return(1)
 		if(choice2.lower() in ("random", 'r')):	
 			toss = int(random.randint(0,1))
 			if(toss == 0):
 				print("You have won the toss and will kick first!")
 				time.sleep(1)
 				print("")
-				play(0)
+				return(0)
 			if(toss == 1):
 				print("You have lost the toss and will shoot second")
 				time.sleep(1)
 				print("")
-				play(1)
+				return(1)
 		print("Input was invalid, please try again\n")
 
 def customFill():
