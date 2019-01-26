@@ -7,7 +7,7 @@ import time
 
 clear = lambda: os.system('cls')
 
-# Current selection of teams, more to come
+# Current selection of teams, more to come!!!
 real = [("Bale", 90), ("Isco", 82), ("Modric", 88), ("Ramos", 84), ("Navas", 70)]
 
 barca = [("Messi", 94), ("Coutinho", 87), ("Dembele", 83), ("Suarez", 86), ("Ter Stegen", 74)]
@@ -242,14 +242,10 @@ def myTeamShot(shooterNum, shooter):
 			time.sleep(1.7)
 	shooterNum = shooterNum + 1
 	clear()
-	if(opoShots == 5):
-		endGame()
-	opoTeamShot(opoTeam[opoShots])
 	
 	
 
-def opoTeamShot(shooter):
-	global shooterNum
+def opoTeamShot(shooterNum, shooter):
 	global opoShots
 	global goalsNum
 	global opoGoals
@@ -318,10 +314,6 @@ def opoTeamShot(shooter):
 			print(shooter[0] + " scores to make it " + str(goalsNum) + " - " + str(opoGoals))
 			time.sleep(1.8)
 	opoShots = opoShots + 1
-	clear()
-	if(shooterNum == 5):
-		endGame()
-	myTeamShot(myTeam[shooterNum])
 	
 def endGame():
 	global shooterNum
