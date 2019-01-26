@@ -135,7 +135,7 @@ def preMatchToss():
 			return(0)
 		if(choice2.lower() in ("second", "s", "secnod", "2")):	
 			return(1)
-		if(choice2.lower() in ("random", 'r')):	
+		if(choice2.lower() in ("random", 'r', 'rand')):	
 			toss = int(random.randint(0,1))
 			if(toss == 0):
 				print("You have won the toss and will kick first!")
