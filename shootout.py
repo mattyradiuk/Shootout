@@ -33,8 +33,8 @@ goalsNum = 0
 opoGoals = 0
 
 def main():
-	intro()
-	play(preMatchToss())
+	myTeam, opoTeam = intro()
+	play(preMatchToss(), myTeam, opoTeam)
 
 
 def intro():
@@ -126,6 +126,7 @@ def intro():
 	if(playQ.lower() != "play"):
 		main()
 	clear()
+	return myTeam, opoTeam
 
 def preMatchToss():
 	print("First / Second / Random")
@@ -159,19 +160,19 @@ def customFill():
 	customGRating = input("Enter rating for goalie: ")
 	custom.append((customGoalie,int(customGRating)))
 
-def play(x):
-	global shooterNum
+def play(x, myTeam, opoTeam):
 	if(x == 0):
-		myTeamShot(myTeam[shooterNum])
+		for i in range(4):
+			myTeamShot(i, myTeam[i])
+			opoTeamShot(i, opoTeam[i])
 	if(x == 1):
-		opoTeamShot(opoTeam[shooterNum])
-	if(x == 2):
-		myTeamShot(myTeam[shooterNum])
+		for i in range(4):
+			opoTeamShot(i, opoTeam[i])
+			myTeamShot(i, myTeam[i])
 
-def myTeamShot(shooter):
+def myTeamShot(shooterNum, shooter):
 	global goalsNum
 	global opoGoals
-	global shooterNum
 	global opoShots
 	global opoTeam
 	print("The score is " + str(goalsNum) + " - " + str(opoGoals))
