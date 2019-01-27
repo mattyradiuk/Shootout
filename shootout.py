@@ -8,21 +8,21 @@ import time
 clear = lambda: os.system('cls')
 
 # Current selection of teams, more to come!!!
-real = [("Bale", 90), ("Isco", 82), ("Modric", 88), ("Ramos", 84), ("Navas", 70)]
+real = [("Bale", 90), ("Isco", 82), ("Modric", 88), ("Ramos", 84), ('Vincinius Jr', 72), ("Navas", 70)]
 
-barca = [("Messi", 94), ("Coutinho", 87), ("Dembele", 83), ("Suarez", 86), ("Ter Stegen", 74)]
+barca = [("Messi", 94), ("Coutinho", 87), ("Dembele", 83), ("Suarez", 86), ("De Jong", 73), ("Ter Stegen", 74)]
 
-bayern = [("Lewandowski", 91), ("Muller", 86), ("James", 87), ("Robben", 86), ("Neuer", 70)]
+bayern = [("Lewandowski", 91), ("Muller", 86), ("James", 87), ("Robben", 86), ('Davies', 66), ("Neuer", 70)]
 
-juve = [("Ronaldo", 94), ("Dybala", 84), ("Douglas", 82), ("Mandjukic", 80), ("Buffon", 76)]
+juve = [("Ronaldo", 94), ("Dybala", 84), ("Douglas", 82), ("Mandjukic", 80), ('Pjanic', 82), ("Buffon", 76)]
 
-spurs = [("Kane", 88), ("Eriksen", 87), ("Son", 85), ("Dele", 83), ("Lloris", 75)]
+spurs = [("Kane", 88), ("Eriksen", 87), ("Son", 85), ("Dele", 83), ('Lucas', 82), ("Lloris", 75)]
 
-united = [("Pogba", 84), ("Lingard", 82), ("Rashford", 80), ("Lukaku", 77), ("De Gea", 80)]
+united = [("Pogba", 84), ("Lingard", 82), ("Rashford", 80), ("Lukaku", 77), ('Martial', 81), ("De Gea", 80)]
 
-liverpool = [("Salah", 87), ("Milner", 80), ("Firmino", 83), ("Shaqiri", 75), ("Alison", 77)]
+liverpool = [("Salah", 87), ("Milner", 80), ("Firmino", 83), ("Shaqiri", 75), ('Oxlade-Chamberlain', 80), ("Alison", 77)]
 
-city = [("Aguero", 87), ("Sterling", 82), ("De Bruyne", 88), ("Sane", 80), ("Ederson", 68)] 
+city = [("Aguero", 87), ("Sterling", 82), ("De Bruyne", 88), ("Sane", 80), ('Jesus', 74), ("Ederson", 68)] 
 
 custom = []
 
@@ -162,11 +162,11 @@ def customFill():
 
 def play(x, myTeam, opoTeam):
 	if(x == 0):
-		for i in range(4):
+		for i in range(5):
 			myTeamShot(i, myTeam[i])
 			opoTeamShot(i, opoTeam[i])
 	if(x == 1):
-		for i in range(4):
+		for i in range(5):
 			opoTeamShot(i, opoTeam[i])
 			myTeamShot(i, myTeam[i])
 
