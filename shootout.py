@@ -314,6 +314,7 @@ def opoTeamShot(shooterNum, shooter):
 			print(shooter[0] + " scores to make it " + str(goalsNum) + " - " + str(opoGoals))
 			time.sleep(1.8)
 	opoShots = opoShots + 1
+	clear()
 	
 def endGame():
 	global shooterNum
