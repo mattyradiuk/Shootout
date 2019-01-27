@@ -162,11 +162,11 @@ def customFill():
 
 def play(x, myTeam, opoTeam):
 	if(x == 0):
-		for i in range(5):
+		for i in range(4):
 			myTeamShot(i, myTeam[i])
 			opoTeamShot(i, opoTeam[i])
 	if(x == 1):
-		for i in range(5):
+		for i in range(4):
 			opoTeamShot(i, opoTeam[i])
 			myTeamShot(i, myTeam[i])
 
