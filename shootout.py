@@ -42,9 +42,10 @@ def intro():
 	print("120 minutes have passed but the game is still tied")
 	time.sleep(0.3)
 	print("It is going to come down to the penalty shootout!!!")
-	time.sleep(0.5)
+	time.sleep(1)
 	print("")
-	print("Teams: Real Madrid, Barcelona, Bayern Munich, Juventus, Man United, Man City, Liverpool, Tottenham Hotspur, or custom")
+	time.sleep(.5)
+	print("Teams:\n Real Madrid\n Barcelona\n Bayern Munich\n Juventus\n Man United\n Man City\n Liverpool\n Tottenham Hotspur\n Custom")
 
 	myTeam = []
 	opoTeam = []
@@ -52,6 +53,7 @@ def intro():
 	#Pick the team you control
 	while(1):
 		teamChoose = input("Which team would you like to be?: ")
+		print("")
 		if(teamChoose.lower() in ("real", "real madrid", "madrid")):
 			myTeam = real
 			break
@@ -89,6 +91,7 @@ def intro():
 	#Pick the team the AI controls
 	while(1):
 		opoChoose = input("Which team would you like to face?: ")
+		print("")
 		if(opoChoose.lower() in ("real", "real madrid", "madrid")):
 			opoTeam = real
 			break
