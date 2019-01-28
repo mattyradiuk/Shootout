@@ -28,13 +28,13 @@ custom = []
 
 #Ugly Globals; getting rid of these soon
 shooterNum = 0
-opoShots = 0
 goalsNum = 0
 opoGoals = 0
 
 def main():
 	myTeam, opoTeam = intro()
 	play(preMatchToss(), myTeam, opoTeam)
+	endGame()
 
 
 def intro():
@@ -173,8 +173,6 @@ def play(x, myTeam, opoTeam):
 def myTeamShot(shooterNum, shooter):
 	global goalsNum
 	global opoGoals
-	global opoShots
-	global opoTeam
 	print("The score is " + str(goalsNum) + " - " + str(opoGoals))
 	print("The shooter is " + shooter[0] + " and his rating is " + str(shooter[1]))
 	print("")
@@ -246,7 +244,6 @@ def myTeamShot(shooterNum, shooter):
 	
 
 def opoTeamShot(shooterNum, shooter):
-	global opoShots
 	global goalsNum
 	global opoGoals
 	print("The score is " + str(goalsNum) + " - " + str(opoGoals))
@@ -313,7 +310,6 @@ def opoTeamShot(shooterNum, shooter):
 			time.sleep(.8)
 			print(shooter[0] + " scores to make it " + str(goalsNum) + " - " + str(opoGoals))
 			time.sleep(1.8)
-	opoShots = opoShots + 1
 	clear()
 	
 def endGame():
