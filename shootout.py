@@ -27,7 +27,6 @@ city = [("Aguero", 87), ("Sterling", 82), ("De Bruyne", 88), ("Sane", 80), ('Jes
 custom = []
 
 #Ugly Globals; getting rid of these soon
-shooterNum = 0
 goalsNum = 0
 opoGoals = 0
 
