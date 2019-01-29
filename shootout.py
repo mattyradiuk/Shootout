@@ -183,11 +183,11 @@ def myTeamShot(shooterNum, shooter):
 	shotPlace = -1
 	AIgoalie = int(random.uniform(0,3))
 	#print(AIgoalie)
-	if(shotAtmpt.lower() == "left"):
+	if(shotAtmpt.lower() in ("left", "l")):
 		shotPlace = 0
-	if(shotAtmpt.lower() == "mid"):
+	if(shotAtmpt.lower() in ("mid", "m")):
 		shotPlace = 1
-	if(shotAtmpt.lower() == "right"):
+	if(shotAtmpt.lower() in ("right", "r")):
 		shotPlace = 2
 	if(shotPlace == -1):
 		print("Shot selection is invalid")
