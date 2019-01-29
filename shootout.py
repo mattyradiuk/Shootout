@@ -256,11 +256,11 @@ def opoTeamShot(shooterNum, shooter):
 	savePlace = -1
 	AIshooter = int(random.uniform(0,3))
 	#print(AIgoalie)
-	if(saveAtmpt.lower() == "left"):
+	if(saveAtmpt.lower() in ("left", "l")):
 		savePlace = 0
-	if(saveAtmpt.lower() == "mid"):
+	if(saveAtmpt.lower() in ("mid", "middle", "m")):
 		savePlace = 1
-	if(saveAtmpt.lower() == "right"):
+	if(saveAtmpt.lower() in ("right", "r")):
 		savePlace = 2
 	if(savePlace == -1):
 		print("Keeper gets some bad instructions, he's frozen in place!")
