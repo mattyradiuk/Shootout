@@ -315,7 +315,6 @@ def opoTeamShot(shooterNum, shooter):
 	clear()
 	
 def endGame():
-	global shooterNum
 	global goalsNum
 	global opoGoals
 	print("Game over!")
@@ -328,7 +327,7 @@ def endGame():
 			shooterNum = 0
 			goalsNum = 0
 			opoGoals = 0
-			play(0)
+			main()
 		else:
 			print("Thank you for playing.")
 			print("Copyright © Matt Radiuk 2018")
@@ -342,7 +341,7 @@ def endGame():
 			shooterNum = 0
 			goalsNum = 0
 			opoGoals = 0
-			pickTeams()
+			main()
 		else:
 			print("Thank you for playing.")
 			print("Copyright © Matt Radiuk 2018")
@@ -356,7 +355,7 @@ def endGame():
 			shooterNum = 0
 			goalsNum = 0
 			opoGoals = 0
-			pickTeams()
+			main()
 		else:
 			print("Thank you for playing.")
 			print("Copyright © Matt Radiuk 2018")
