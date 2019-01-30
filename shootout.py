@@ -1,5 +1,5 @@
 #Matt Radiuk
-#2018
+#2019
 
 import random
 import os
@@ -37,7 +37,7 @@ def main():
 
 
 def intro():
-        # Intro to the game and team selection
+    # Intro to the game and team selection
 	print("120 minutes have passed but the game is still tied")
 	time.sleep(0.3)
 	print("It is going to come down to the penalty shootout!!!")
@@ -136,7 +136,7 @@ def preMatchToss():
 		choice2 = input("Would you shoot first second or random?: ")
 		if(choice2.lower() in ("first", "f", "frist", "1")):	
 			return(0)
-		if(choice2.lower() in ("second", "s", "secnod", "2")):	
+		if(choice2.lower() in ("second", "s", "sec", "2")):	
 			return(1)
 		if(choice2.lower() in ("random", 'r', 'rand')):	
 			toss = int(random.randint(0,1))
@@ -153,8 +153,8 @@ def preMatchToss():
 		print("Input was invalid, please try again\n")
 
 def customFill():
-        #When you select "custom" at kickoff
-	for i in range(1, 5):
+    #When you select "custom" at kickoff
+	for i in range(1, 6):
 		customPlayer = input("Enter name for player " + str(i) + ": ")
 		customRating = input("Enter rating for player " + str(i) + ": ")
 		custom.append((customPlayer,int(customRating)))
