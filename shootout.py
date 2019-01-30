@@ -181,7 +181,7 @@ def myTeamShot(shooterNum, shooter):
 	print("Left / Mid / Right")
 	shotAtmpt = input("Where would you like to shoot?: ")
 	shotPlace = -1
-	AIgoalie = int(random.uniform(0,3))
+	AIgoalie = int(random.randint(0,2))
 	#print(AIgoalie)
 	if(shotAtmpt.lower() in ("left", "l")):
 		shotPlace = 0
