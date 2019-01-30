@@ -206,7 +206,7 @@ def myTeamShot(shooterNum, shooter):
 		print(".")
 	time.sleep(1)
 	if(shotPlace == AIgoalie):
-		a = random.uniform(1, 15)
+		a = random.randint(1, 15)
 		#print("A equals " + str(a))
 		#print(shooter[1])
 		if(a < (100 - shooter[1])):
