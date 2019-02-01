@@ -207,8 +207,6 @@ def myTeamShot(shooterNum, shooter):
 	time.sleep(1)
 	if(shotPlace == AIgoalie):
 		a = random.randint(1, 15)
-		#print("A equals " + str(a))
-		#print(shooter[1])
 		if(a < (100 - shooter[1])):
 			print("SAVE!")
 			time.sleep(.8)
@@ -222,8 +220,6 @@ def myTeamShot(shooterNum, shooter):
 			time.sleep(1.7)
 	if(shotPlace != AIgoalie):
 		a = random.uniform(1, 100)
-		#print("A equals " + str(int(a)))
-		#print(shooter[1])
 		if(a < (100 - shooter[1])):
 			print("COMPLETE SHANK! HE MISSED THE NET")
 			time.sleep(.8)
