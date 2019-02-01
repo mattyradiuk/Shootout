@@ -226,7 +226,7 @@ def myTeamShot(shooterNum, shooter):
 			print("The score remains " + str(goalsNum) + " - " + str(opoGoals))
 			time.sleep(1.7)
 		elif(a < (100 - shooter[1]) + 10):
-			print("MISS! HE RIPPED IT OFF OF THE POST")
+			print("MISS! HE RIPPED IT OFF OF THE POST AND OUT")
 			time.sleep(.8)
 			print("The score remains " + str(goalsNum) + " - " + str(opoGoals))
 			time.sleep(1.7)
@@ -238,7 +238,6 @@ def myTeamShot(shooterNum, shooter):
 			time.sleep(1.7)
 	shooterNum = shooterNum + 1
 	clear()
-	
 	
 
 def opoTeamShot(shooterNum, shooter):
