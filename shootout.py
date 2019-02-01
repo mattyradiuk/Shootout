@@ -358,7 +358,7 @@ def endGame():
 			main()
 		else:
 			print("Thank you for playing.")
-			print("Copyright © Matt Radiuk 2018")
+			print("Copyright © Matt Radiuk 2019")
 			time.sleep(6)
 			exit()
 if __name__ == '__main__':
