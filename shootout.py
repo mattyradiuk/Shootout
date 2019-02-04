@@ -163,20 +163,18 @@ def customFill():
 	custom.append((customGoalie,int(customGRating)))
 
 def play(x, myTeam, opoTeam):
+	myScore = 0
+	opoScore = 0
 	if(x == 0):
 		for i in range(4):
-			myTeamShot(i, myTeam[i])
-			opoTeamShot(i, opoTeam[i])
+			print("The score is " + myTeamShot(i, myTeam[i], myScore) + " - " + opoTeamShot(i, opoTeam[i], opoScore))
 	if(x == 1):
 		for i in range(4):
+			print("The score is " + str(myScore) + " - " + str(opoScore))
 			opoTeamShot(i, opoTeam[i])
 			myTeamShot(i, myTeam[i])
 
-def myTeamShot(shooterNum, shooter):
-	global goalsNum
-	global opoGoals
-	print("The score is " + str(goalsNum) + " - " + str(opoGoals))
-	print("The shooter is " + shooter[0] + " and his rating is " + str(shooter[1]))
+def myTeamShot(shooterNum, shooter, myScore):
 	print("")
 	print("Left / Mid / Right")
 	shotAtmpt = input("Where would you like to shoot?: ")
