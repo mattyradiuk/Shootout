@@ -330,8 +330,6 @@ def endGame():
 		print("Would you like to play again?")
 		restart = input("Y / N: ")
 		if(restart.lower() == "y"):
-			goalsNum = 0
-			opoGoals = 0
 			main()
 		else:
 			print("Thank you for playing.")
@@ -343,8 +341,6 @@ def endGame():
 		print("Would you like to play again?")
 		restart = input("Y / N: ")
 		if(restart.lower() == "y"):
-			goalsNum = 0
-			opoGoals = 0
 			main()
 		else:
 			print("Thank you for playing.")
