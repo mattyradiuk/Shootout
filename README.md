@@ -8,17 +8,17 @@ Command Line Soccer Shootout Game
 
 I try to keep the playable teams and their respective ratings reasonably current, all of the ratings are my opinion only.
 
-The full lineup of teams is below
+The full lineup of teams is below in order of rating.
 
 
-1. Real Madrid **84**
-2. Barcelona **85**
-3. Bayern Munich **83**
-4. Juventus **84**
-5. Man United **81** 
-6. Man City **82**
+1. Barcelona **85**
+2. Real Madrid **84**
+3. Juventus **84**
+4. Bayern Munich **83**
+5. Man City **82** 
+6. Tottenham Hotspur **82**
 7. Liverpool **81**
-8. Tottenham Hotspur **83**
+8. Man United **81**
 
 
 :::success
