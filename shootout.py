@@ -44,7 +44,7 @@ def intro():
 	time.sleep(1)
 	print("")
 	time.sleep(.5)
-	print("Teams:\n Real Madrid 84\n Barcelona 85\n Bayern Munich 83\n Juventus 84\n Man United 81\n Man City 82\n Liverpool 81\n Tottenham Hotspur 83\n Custom")
+	print("Teams:\n Real Madrid 84\n Barcelona 85\n Bayern Munich 83\n Juventus 84\n Man United 81\n Man City 82\n Liverpool 81\n Tottenham Hotspur 83\n Custom\n")
 
 	myTeam = []
 	opoTeam = []
