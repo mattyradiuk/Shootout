@@ -5,7 +5,7 @@ Command Line Soccer Shootout Game
 
 **Shootout** is my first attempt at a half decent game using Python 3.7. It takes both user input and random number generation to determine the outcome of a penalty shootout at the end of a soccer game. The math currently being used in the RNG process is primitive, but I am planning to do an overhaul on that soon.  
 ```
-If you would like the play the without having to download any code, 
+If you would like the play the without having to download or run any code, 
 you can do so on my website at the link below
 ```
 [radiuk.ca/projects](https://www.google.com)
