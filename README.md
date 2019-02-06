@@ -8,7 +8,7 @@ Command Line Soccer Shootout Game
 If you would like the play the without having to download or run any code, 
 you can do so on my website at the link below
 ```
-[radiuk.ca/projects](https://www.google.com)
+[link to game](https://radiuk.ca/projects)
 ### Teams and Ratings
 
 I try to keep the playable teams and their respective ratings reasonably current, all of the ratings are my opinion only.
