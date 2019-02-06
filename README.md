@@ -8,7 +8,7 @@ Command Line Soccer Shootout Game
 If you would like the play the without having to download or run any code, 
 you can do so on my website at the link below
 ```
-[link to game](https://radiuk.ca/projects)
+[link to game](http://radiuk.ca/projects)
 ### Teams and Ratings
 
 I try to keep the playable teams and their respective ratings reasonably current, all of the ratings are my opinion only.
@@ -24,4 +24,4 @@ The full lineup of teams is below in order of rating.
 7. Liverpool **81**
 8. Man United **81**
 
-> Please dont hesitate to contact me [here](https://radaiuk.ca/contact) if you encounter any bugs while playing the game.
+> Please dont hesitate to contact me [here](http://radiuk.ca/contact) if you encounter any bugs while playing the game.
