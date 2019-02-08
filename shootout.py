@@ -178,11 +178,10 @@ def myTeamShot(shooterNum, shooter):
 	print("The score is " + str(goalsNum) + " - " + str(opoGoals))
 	print("The shooter is " + shooter[0] + " and his rating is " + str(shooter[1]))
 	print("")
-	print("Left / Mid / Right")
+	print("Left / Middle / Right")
 	shotAtmpt = input("Where would you like to shoot?: ")
 	shotPlace = -1
 	AIgoalie = int(random.randint(0,2))
-	#print(AIgoalie)
 	if(shotAtmpt.lower() in ("left", "l")):
 		shotPlace = 0
 	if(shotAtmpt.lower() in ("mid", "m")):
@@ -193,7 +192,8 @@ def myTeamShot(shooterNum, shooter):
 		print("Shot selection is invalid")
 		print(shooter[0] + " looks shaken and rolls it softly down the middle")
 		shotPlace = 1
-	print("")
+	print("").
+	
 	if(AIgoalie == 0):
 		print("Goalie dives left!")
 	if(AIgoalie == 1):
@@ -246,7 +246,7 @@ def opoTeamShot(shooterNum, shooter):
 	print("The score is " + str(goalsNum) + " - " + str(opoGoals))
 	print("The shooter is " + shooter[0] + " and his rating is " + str(shooter[1]))
 	print("")
-	print("Left / Mid / Right")
+	print("Left / Midddle / Right")
 	saveAtmpt = input("Which way would you like your goaie to dive?: ")
 	savePlace = -1
 	AIshooter = int(random.uniform(0,3))
