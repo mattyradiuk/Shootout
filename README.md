@@ -24,4 +24,4 @@ The full lineup of teams is below in order from best to worst.
 7. Liverpool **81**
 8. Man United **81**
 
-> Please dont hesitate to contact me [here](http://radiuk.ca/contact) if you encounter any bugs while playing the game.
+> Please dont hesitate to contact me [here](http://radiuk.ca/contact) if you encounter any bugs or flaws while playing the game.
