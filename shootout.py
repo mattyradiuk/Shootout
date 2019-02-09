@@ -167,6 +167,7 @@ def play(x, myTeam, opoTeam):
 		for i in range(4):
 			myTeamShot(i, myTeam[i])
 			opoTeamShot(i, opoTeam[i])
+			#TODO: EndGame Scenarios!!!
 	if(x == 1):
 		for i in range(4):
 			opoTeamShot(i, opoTeam[i])
