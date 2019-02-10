@@ -13,9 +13,9 @@ you can do so on my website at the link below
 
 I try to keep the playable teams and their respective ratings reasonably current, all of the ratings are my opinion only.
 
-The full lineup of teams is below in order from best to worst.
+The full lineup of teams is below. You can also enter your own team with the 'custom' option
 
-1. Barcelona **85**
+1. Barcelona **85**.
 2. Real Madrid **84**
 3. Juventus **84**
 4. Bayern Munich **83**
