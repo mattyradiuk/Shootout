@@ -24,6 +24,8 @@ liverpool = [("Salah", 87), ("Milner", 80), ("Firmino", 83), ("Shaqiri", 75), ('
 
 city = [("Aguero", 87), ("Sterling", 82), ("De Bruyne", 88), ("Sane", 80), ('Jesus', 74), ("Ederson", 68)] 
 
+chelsea = [(("Higuian", 87), ("Pedro", 82), ("Hazard", 88), ("Willian", 80), ('Loftus-Cheek', 74), ("Kepa", 68))]
+
 custom = []
 
 #Ugly Globals; getting rid of these soon
