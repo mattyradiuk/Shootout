@@ -27,8 +27,6 @@ city = [("Aguero", 87), ("Sterling", 82), ("De Bruyne", 88), ("Sane", 80), ('Jes
 chelsea = [(("Higuian", 87), ("Pedro", 82), ("Hazard", 88), ("Willian", 80), ('Loftus-Cheek', 74), ("Kepa", 68))]
 
 custom = []
-
-#Ugly Globals; getting rid of these soon
 goalsNum = 0
 opoGoals = 0
 
@@ -176,6 +174,7 @@ def play(x, myTeam, opoTeam):
 			myTeamShot(i, myTeam[i])
 
 def myTeamShot(shooterNum, shooter):
+	#Globals required for keeping score
 	global goalsNum
 	global opoGoals
 	print("The score is " + str(goalsNum) + " - " + str(opoGoals))
