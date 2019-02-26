@@ -322,6 +322,7 @@ def endGame():
 		print("")
 		restart = input("Y / N: ")
 		if(restart.lower() == "y"):
+			clear()
 			main()
 		else:
 			print("Thank you for playing.")
@@ -333,6 +334,7 @@ def endGame():
 		print("Would you like to play again?")
 		restart = input("Y / N: ")
 		if(restart.lower() == "y"):
+			clear()
 			main()
 		else:
 			print("Thank you for playing.")
@@ -344,6 +346,7 @@ def endGame():
 		print("Would you like to play again?")
 		restart = input("Y / N: ")
 		if(restart.lower() == "y"):
+			clear()
 			main()
 		else:
 			print("Thank you for playing.")
