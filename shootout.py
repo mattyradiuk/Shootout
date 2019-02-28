@@ -8,25 +8,25 @@ import time
 clear = lambda: os.system('cls')
 
 # Current selection of teams, more to come!!!
-real = [("Bale", 90), ("Isco", 82), ("Modric", 88), ("Ramos", 84), ('Vincinius Jr', 72), ("Navas", 70)]
+real = [("Bale", 89), ("Isco", 82), ("Modric", 86), ("Ramos", 82), ('Vincinius Jr', 72), ("Navas", 70)]
 
-barca = [("Messi", 94), ("Coutinho", 87), ("Dembele", 83), ("Suarez", 86), ("De Jong", 73), ("Ter Stegen", 74)]
+barca = [("Messi", 90), ("Coutinho", 87), ("Dembele", 83), ("Suarez", 86), ("De Jong", 73), ("Ter Stegen", 74)]
 
 bayern = [("Lewandowski", 91), ("Muller", 86), ("James", 87), ("Robben", 86), ('Davies', 66), ("Neuer", 70)]
 
 juve = [("Ronaldo", 94), ("Dybala", 84), ("Douglas", 82), ("Mandjukic", 80), ('Pjanic', 82), ("Buffon", 76)]
 
-spurs = [("Kane", 88), ("Eriksen", 87), ("Son", 85), ("Dele", 83), ('Lucas', 82), ("Lloris", 75)]
+spurs = [("Kane", 88), ("Eriksen", 87), ("Son", 84), ("Dele", 81), ('Lucas', 82), ("Lloris", 75)]
 
-united = [("Pogba", 84), ("Lingard", 82), ("Rashford", 80), ("Lukaku", 77), ('Martial', 81), ("De Gea", 80)]
+united = [("Pogba", 84), ("Lingard", 82), ("Rashford", 81), ("Lukaku", 76), ('Martial', 81), ("De Gea", 80)]
 
 liverpool = [("Salah", 87), ("Milner", 80), ("Firmino", 83), ("Shaqiri", 75), ('Oxlade-Chamberlain', 80), ("Alison", 77)]
 
 city = [("Aguero", 87), ("Sterling", 82), ("De Bruyne", 88), ("Sane", 80), ('Jesus', 74), ("Ederson", 68)] 
 
-chelsea = [("Higuian", 84), ("Pedro", 82), ("Hazard", 88), ("Willian", 80), ('Loftus-Cheek', 77), ("Kepa", 65)]
+chelsea = [("Higuian", 83), ("Pedro", 82), ("Hazard", 88), ("Willian", 80), ('Loftus-Cheek', 77), ("Kepa", 65)]
 
-arsenal = [("Aubameyang", 85), ("Lacazette", 84), ("Iwobi", 79), ("Ozil", 86), ('Torreria', 74), ("Leno", 69)]
+arsenal = [("Aubameyang", 84), ("Lacazette", 85), ("Iwobi", 79), ("Ozil", 85), ('Torreria', 74), ("Leno", 69)]
 
 custom = []
 goalsNum = 0
