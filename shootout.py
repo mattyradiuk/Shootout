@@ -8,7 +8,7 @@ import time
 clear = lambda: os.system('cls')
 
 # Current selection of teams, more to come!!!
-real = [("Bale", 89), ("Isco", 82), ("Modric", 86), ("Ramos", 82), ('Vincinius Jr', 72), ("Navas", 70)]
+real = [("Bale", 89), ("Isco", 82), ("Modric", 86), ("Ramos", 82), ('Vincinius Jr', 72), ("Navas", 72)]
 
 barca = [("Messi", 90), ("Coutinho", 87), ("Dembele", 83), ("Suarez", 86), ("De Jong", 73), ("Ter Stegen", 74)]
 
