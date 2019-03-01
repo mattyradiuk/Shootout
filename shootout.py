@@ -37,7 +37,6 @@ def main():
 	play(preMatchToss(), myTeam, opoTeam)
 	endGame()
 
-
 def intro():
     # Intro to the game and team selection
 	print("120 minutes have passed but the game is still tied")
@@ -311,7 +310,7 @@ def opoTeamShot(shooterNum, shooter):
 			print(shooter[0] + " scores to make it " + str(goalsNum) + " - " + str(opoGoals))
 			time.sleep(1.8)
 	clear()
-	
+
 def endGame():
 	global goalsNum
 	global opoGoals
