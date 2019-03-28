@@ -20,7 +20,7 @@ spurs = [("Kane", 87), ("Eriksen", 86), ("Son", 84), ("Dele", 82), ('Lucas', 81)
 
 united = [("Pogba", 84), ("Lingard", 82), ("Rashford", 81), ("Lukaku", 76), ('Martial', 81), ("De Gea", 80)]
 
-liverpool = [("Salah", 85), ("Milner", 80), ("Firmino", 83), ("Shaqiri", 75), ('Oxlade-Chamberlain', 80), ("Alison", 77)]
+liverpool = [("Salah", 84), ("Milner", 80), ("Firmino", 83), ("Shaqiri", 75), ('Oxlade-Chamberlain', 80), ("Alison", 77)]
 
 city = [("Aguero", 87), ("Sterling", 82), ("De Bruyne", 88), ("Sane", 80), ('Jesus', 74), ("Ederson", 68)] 
 
