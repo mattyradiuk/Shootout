@@ -21,8 +21,8 @@ The full lineup of teams is below. More are coming soon; 'custom' is an option i
 4. Liverpool **83**
 5. Bayern Munich **82**
 6. Man City **82** 
-7. Tottenham Hotspur **82**
-8. Man United **81**
+7. Tottenham Hotspur **81**
+8. Man United **82**
 9. Arsenal **80**
 10. Chelsea **80**
 
