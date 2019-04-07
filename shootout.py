@@ -22,7 +22,7 @@ united = [("Pogba", 84), ("Lingard", 82), ("Rashford", 81), ("Lukaku", 78), ('Ma
 
 liverpool = [("Salah", 84), ("Milner", 80), ("Firmino", 83), ("Shaqiri", 75), ('Oxlade-Chamberlain', 80), ("Alison", 77)]
 
-city = [("Aguero", 87), ("Sterling", 82), ("De Bruyne", 88), ("Sane", 80), ('Jesus', 74), ("Ederson", 68)] 
+city = [("Aguero", 87), ("Sterling", 82), ("De Bruyne", 88), ("Sane", 82), ('Jesus', 74), ("Ederson", 68)] 
 
 chelsea = [("Higuian", 83), ("Pedro", 82), ("Hazard", 88), ("Willian", 80), ('Loftus-Cheek', 77), ("Kepa", 65)]
 
