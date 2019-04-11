@@ -26,7 +26,7 @@ city = [("Aguero", 87), ("Sterling", 82), ("De Bruyne", 88), ("Sane", 82), ('Jes
 
 chelsea = [("Higuian", 83), ("Pedro", 82), ("Hazard", 88), ("Willian", 80), ('Loftus-Cheek', 77), ("Kepa", 65)]
 
-arsenal = [("Aubameyang", 82), ("Lacazette", 84), ("Iwobi", 78), ("Ozil", 83), ('Torreria', 75), ("Leno", 69)]
+arsenal = [("Aubameyang", 82), ("Lacazette", 83), ("Iwobi", 78), ("Ozil", 84), ('Torreria', 75), ("Leno", 69)]
 
 custom = []
 goalsNum = 0
