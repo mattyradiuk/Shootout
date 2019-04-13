@@ -10,7 +10,7 @@ clear = lambda: os.system('cls')
 # Current selection of teams, more to come!!!
 real = [("Bale", 83), ("Isco", 82), ("Modric", 85), ("Ramos", 82), ('Vinicius Jr', 77), ("Navas", 72)]
 
-barca = [("Messi", 91), ("Coutinho", 87), ("Dembele", 83), ("Suarez", 85), ("De Jong", 74), ("Ter Stegen", 75)]
+barca = [("Messi", 91), ("Coutinho", 84), ("Dembele", 83), ("Suarez", 85), ("De Jong", 74), ("Ter Stegen", 75)]
 
 bayern = [("Lewandowski", 88), ("Muller", 84), ("James", 87), ("Robben", 83), ('Davies', 66), ("Neuer", 71)]
 
