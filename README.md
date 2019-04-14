@@ -15,10 +15,10 @@ I try to keep the playable teams and their respective ratings reasonably current
 
 The full lineup of teams is below. More are coming soon; 'custom' is an option in the meantime. 
 
-1. Barcelona **85**.
-2. Real Madrid **84**
+1. Liverpool **85**
+2. Barcelona **84**
 3. Juventus **84**
-4. Liverpool **83**
+4. Real Madrid **83**
 5. Bayern Munich **82**
 6. Man City **82** 
 7. Tottenham Hotspur **81**
