@@ -23,7 +23,7 @@ The full lineup of teams is below. More are coming soon; 'custom' is an option i
 6. Man City **82** 
 7. Tottenham Hotspur **81**
 8. Man United **81**
-9. Arsenal **80**
-10. Chelsea **80**
+9. Chelsea **80**
+10. Arsenal **79**
 
 > Please dont hesitate to contact me [here](http://radiuk.ca/message) if you encounter any bugs or flaws while playing the game.
