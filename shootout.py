@@ -24,7 +24,7 @@ liverpool = [("Salah", 85), ("Milner", 80), ("Firmino", 83), ("Shaqiri", 75), ('
 
 city = [("Aguero", 87), ("Sterling", 85), ("De Bruyne", 88), ("Sane", 82), ('Jesus', 74), ("Ederson", 68)] 
 
-chelsea = [("Higuian", 83), ("Pedro", 82), ("Hazard", 88), ("Willian", 80), ('Loftus-Cheek', 77), ("Kepa", 65)]
+chelsea = [("Higuian", 81), ("Pedro", 82), ("Hazard", 88), ("Willian", 80), ('Loftus-Cheek', 77), ("Kepa", 65)]
 
 arsenal = [("Aubameyang", 82), ("Lacazette", 83), ("Iwobi", 78), ("Ozil", 84), ('Torreria', 75), ("Leno", 69)]
 
