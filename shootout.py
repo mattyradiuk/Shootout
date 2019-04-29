@@ -12,7 +12,7 @@ real = [("Bale", 80), ("Isco", 82), ("Modric", 84), ("Ramos", 82), ('Vinicius Jr
 
 barca = [("Messi", 91), ("Coutinho", 84), ("Dembele", 83), ("Suarez", 85), ("De Jong", 74), ("Ter Stegen", 75)]
 
-bayern = [("Lewandowski", 88), ("Muller", 84), ("James", 87), ("Robben", 83), ('Davies', 66), ("Neuer", 71)]
+bayern = [("Lewandowski", 88), ("Muller", 84), ("James", 86), ("Robben", 83), ('Davies', 66), ("Neuer", 71)]
 
 juve = [("Ronaldo", 91), ("Dybala", 84), ("Douglas", 82), ("Mandjukic", 80), ('Pjanic', 82), ("Buffon", 76)]
 
