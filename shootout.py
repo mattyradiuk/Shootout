@@ -16,7 +16,7 @@ bayern = [("Lewandowski", 88), ("Muller", 84), ("James", 86), ("Robben", 83), ('
 
 juve = [("Ronaldo", 89), ("Dybala", 84), ("Douglas", 82), ("Mandjukic", 80), ('Pjanic', 82), ("Buffon", 76)]
 
-spurs = [("Kane", 87), ("Eriksen", 86), ("Son", 84), ("Dele", 85), ('Lucas', 82), ("Lloris", 77)]
+spurs = [("Kane", 86), ("Eriksen", 85), ("Son", 83), ("Dele", 82), ('Lucas', 85), ("Lloris", 77)]
 
 united = [("Pogba", 84), ("Lingard", 82), ("Rashford", 78), ("Lukaku", 78), ('Martial', 81), ("De Gea", 80)]
 
