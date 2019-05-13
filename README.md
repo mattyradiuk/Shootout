@@ -1,4 +1,4 @@
-Command Line Soccer Shootout Game
+Command Line Soccer Shootout Game Champions League
 ===
 
 ## Introduction
