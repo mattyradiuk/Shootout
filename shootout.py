@@ -181,6 +181,9 @@ def myTeamShot(shooterNum, shooter):
 	#Globals required for keeping score
 	global goalsNum
 	global opoGoals
+	
+	### this is all just really dusty code that works but should probably be redone
+	
 	print("The score is " + str(goalsNum) + " - " + str(opoGoals))
 	print("The shooter is " + shooter[0] + " and his rating is " + str(shooter[1]))
 	print("")
