@@ -22,8 +22,8 @@ The full lineup of teams is below. More are coming soon; 'custom' is an option i
 5. Bayern Munich **82**
 6. Real Madrid **83**
 7. Juventus **82**
-8. Man United **79**
-9. Chelsea **80**
-10. Arsenal **79**
+8. Chelsea **80**
+9. Arsenal **79**
+10. Man United **79**
 
 > Please dont hesitate to contact me [here](http://radiuk.ca/message) if you encounter any bugs or flaws while playing the game.
