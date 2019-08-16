@@ -17,7 +17,7 @@ The full lineup of teams is below. More are coming soon; 'custom' is an option i
 
 1. Liverpool **85**
 2. Barcelona **84**
-3. Spurs **84**
+3. Spurs **83**
 4. Man City **83** 
 5. Bayern Munich **82**
 6. Real Madrid **83**
