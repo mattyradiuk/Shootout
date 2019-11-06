@@ -1,5 +1,5 @@
 #Matt Radiuk
-#2019
+#2018
 
 import random
 import os
@@ -8,7 +8,7 @@ import time
 clear = lambda: os.system('cls')
 
 # Current selection of teams, more to come!!!
-real = [("Bale", 80), ("Benzema", 82), ("Modric", 84), ("Ramos", 83), ('Vinicius Jr', 78), ("Navas", 72)]
+real = [("Rodrygo", 80), ("Benzema", 82), ("Modric", 84), ("Ramos", 83), ('Vinicius Jr', 78), ("Navas", 72)]
 
 barca = [("Messi", 91), ("Griezmann", 85), ("Dembele", 83), ("Suarez", 85), ("De Jong", 74), ("Ter Stegen", 75)]
 
