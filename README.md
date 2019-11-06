@@ -26,4 +26,4 @@ The full lineup of teams is below. More are coming soon; 'custom' is an option i
 9. Arsenal **79**
 10. Man United **79**
 
-> Please dont hesitate to contact me [here](http://radiuk.ca/message) if you encounter any bugs or flaws while playing the game.
+> Please dont hesitate to contact me [here](http://radiuk.ca) if you encounter any bugs or flaws while playing the game.
