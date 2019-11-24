@@ -14,7 +14,7 @@ barca = [("Messi", 91), ("Griezmann", 85), ("Dembele", 83), ("Suarez", 85), ("De
 
 bayern = [("Lewandowski", 88), ("Muller", 84), ("Coutinho", 84), ("Gnabry", 83), ('Davies', 66), ("Neuer", 71)]
 
-juve = [("Ronaldo", 89), ("Dybala", 84), ("Douglas", 82), ("Mandjukic", 80), ('Pjanic', 82), ("Buffon", 76)]
+juve = [("Ronaldo", 86), ("Dybala", 84), ("Douglas", 82), ("Mandjukic", 80), ('Pjanic', 82), ("Buffon", 76)]
 
 spurs = [("Kane", 86), ("Eriksen", 85), ("Son", 83), ("Dele", 82), ('Lucas', 85), ("Lloris", 77)]
 
