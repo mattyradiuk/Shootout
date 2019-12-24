@@ -20,8 +20,8 @@ The full lineup of teams is below. More are coming soon; 'custom' is an option i
 3. Real Madrid **84**
 4. Man City **83** 
 5. Bayern Munich **82**
-6. Spurs **82**
-7. Juventus **82**
+6. Juventus **82**
+7. Spurs **82**
 8. Chelsea **80**
 9. Arsenal **79**
 10. Man United **79**
