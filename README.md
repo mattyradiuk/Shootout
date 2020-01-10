@@ -9,6 +9,7 @@ If you would like the play the without having to download or run any code,
 you can do so on my website at the link below
 ```
 [link to game](http://radiuk.ca/projects)
+
 ### Teams and Ratings
 
 I try to keep the playable teams and their respective ratings reasonably current, and all of the ratings are my opinion only.
