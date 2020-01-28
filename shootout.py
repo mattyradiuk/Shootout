@@ -8,7 +8,7 @@ import time
 clear = lambda: os.system('cls')
 
 # Current selection of teams, more to come!!!
-real = [("Rodrygo", 80), ("Benzema", 82), ("Modric", 84), ("Ramos", 83), ('Vinicius Jr', 78), ("Navas", 72)]
+real = [("Rodrygo", 83), ("Benzema", 82), ("Modric", 84), ("Ramos", 86), ('Vinicius Jr', 80), ("Navas", 72)]
 
 barca = [("Messi", 91), ("Griezmann", 85), ("Dembele", 83), ("Suarez", 85), ("De Jong", 74), ("Ter Stegen", 75)]
 
@@ -20,7 +20,7 @@ spurs = [("Kane", 86), ("Eriksen", 85), ("Son", 83), ("Dele", 82), ('Lucas', 85)
 
 united = [("Pogba", 84), ("Lingard", 82), ("Rashford", 78), ("Lukaku", 78), ('Martial', 81), ("De Gea", 80)]
 
-liverpool = [("Salah", 85), ("Milner", 80), ("Firmino", 83), ("Mane", 83), ('Oxlade-Chamberlain', 80), ("Alison", 77)]
+liverpool = [("Salah", 85), ("Alexander-Arnold", 80), ("Firmino", 83), ("Mane", 83), ('Oxlade-Chamberlain', 80), ("Alison", 77)]
 
 city = [("Aguero", 87), ("Sterling", 85), ("De Bruyne", 88), ("Sane", 82), ('Jesus', 74), ("Ederson", 68)] 
 
