@@ -6,7 +6,6 @@ import os
 import time
 
 clear = lambda: os.system('cls')
-
 #teams
 real = [("Banzema", 83), ("Vini Jr", 82), ("Modric", 84), ("Ramos", 86), ('Lucas', 80), ("Navas", 72)]
 
